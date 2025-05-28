@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra dos Unicórnios - Contagem de Frutas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌈 Contagem Mágica de Frutas 🌈</h1>
+        <p class="subtitle">Ajude a Unicórnio a calcular o poder das frutas!</p>
+        
+        <div class="input-group">
+            <label for="fruits-input">Digite as frutas (separadas por vírgula):</label>
+            <input type="text" id="fruits-input" placeholder="Ex: maçã, banana, cereja, maçã, pera">
+        </div>
+        
+        <div class="buttons">
+            <button id="count-btn" style="--clr:#ff44cc"><span>CALCULAR</span><i></i></button>
+            <button id="back-btn" style="--clr:#44ffcc"><span>VOLTAR</span><i></i></button>
+        </div>
+        
+        <div class="result-container">
+            <h2>Resultado:</h2>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
